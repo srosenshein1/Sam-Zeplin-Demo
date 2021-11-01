@@ -1,0 +1,19 @@
+{
+  "plugins": [
+    {
+      "name": "@zeplin/cli-connect-react-plugin"
+    }
+  ],
+  "projects": [
+    "615f177f1b7bb78502489060"
+  ],
+  "components": [
+  	
+  ],
+  "github": {
+    "repository": "srosenshein1/Sam-Zeplin-Demo"
+  },
+  "styleguides": [
+    "615f135f5239b3854af4896c"
+  ]
+}
