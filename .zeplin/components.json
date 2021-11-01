@@ -8,7 +8,12 @@
     "615f177f1b7bb78502489060"
   ],
   "components": [
-  	
+  	{
+  		"path": "src/components/Button/Button.js",
+  		"zeplinIds": [
+  			"617ac91110e531bb0aa022d1"
+  		]
+  	}
   ],
   "github": {
     "repository": "srosenshein1/Sam-Zeplin-Demo"
