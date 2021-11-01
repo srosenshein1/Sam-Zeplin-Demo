@@ -20,10 +20,10 @@ function App() {
         </a>
       </header>*/}
       <LandingPage 
-        className="NorwayLandingPage"
-      />
+        className="NorwayLandingPage" 
+      /> 
     </div>
   );
 }
 
-export default App;
+export default App; 

@@ -14,6 +14,18 @@
         "617ac91110e531bb0aa022d1",
         "617ac911e465fbbed3a64195"
       ]
+    },
+    {
+      "path": "src\\components\\Flag\\Flag.js",
+      "zeplinIds": [
+        "615f15ed80ee59865a81af16"
+      ]
+    },
+    {
+      "path": "src\\components\\CountryCard\\CountryCard.js",
+      "zeplinIds": [
+        "615f1391efee1188586451df"
+      ]
     }
   ],
   "github": {

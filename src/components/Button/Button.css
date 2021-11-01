@@ -26,3 +26,13 @@ button.Primary:hover {
 	color: #57bda7;
 	background-color: #FFF;
 }
+
+button.Secondary {
+	color: #57bda7;
+	background-color: #FFF;
+	border: 1px solid #57bda7;
+}
+button.Secondary:hover {
+	color: #FFF;
+	background-color: #57bda7;
+}
