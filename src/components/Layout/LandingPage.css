@@ -25,3 +25,16 @@
 	padding: 24px 60px;
 	text-align: center;
 }
+
+.main-section .action-box .form-fields {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.main-section .action-box .form-fields .pst_inputtext3-holder {
+  margin: 0 0 24px 0;
+  flex: 0 1 100%;
+  max-width: calc(50% - 4px);
+}

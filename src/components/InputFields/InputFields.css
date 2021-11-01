@@ -1,0 +1,104 @@
+.pst_inputtext3-holder {
+    width: 100%;
+    position: relative;
+    margin-top: 5px;
+}
+
+.pst_inputtext3 {
+    outline: none;
+    resize: none;
+    display: block;
+    width: 100%;
+    line-height: 24px;
+    border: 1px solid #949494;
+    background-color: #F7F7F7;
+    text-align: left;
+    padding: 9px 16px;
+    z-index: 1;
+    margin: 2px 0;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #141414;
+    box-sizing: border-box;
+    transition: border 300ms cubic-bezier(.4,0,.2,1);
+    text-transform: none;
+    border-radius: 2px;
+    -webkit-appearance: none;
+}
+
+.pst_inputtext3 + .pst_inputtext3-label {
+    background-color: transparent;
+    position: absolute;
+    bottom: 14px;
+    left: 16px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    /*color: #949494;*/
+    color: #5f6368;
+    font-size: 16px;
+    font-weight: 400;
+    width: auto;
+    max-width: calc(100% - 6px);
+    white-space: nowrap;
+    z-index: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 0 3px;
+    transition: transform 300ms cubic-bezier(.4,0,.2,1),opacity 300ms cubic-bezier(.4,0,.2,1),background-color 300ms cubic-bezier(.4,0,.2,1),left 300ms ease-in-out;
+    -webkit-transition: transform 300ms cubic-bezier(.4,0,.2,1),opacity 300ms cubic-bezier(.4,0,.2,1),background-color 300ms cubic-bezier(.4,0,.2,1),left 300ms ease-in-out;
+    pointer-events: none;
+}
+
+.pst_inputtext3 ~ .pst_inputtext3-error {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    display: none;
+    position: absolute;
+    bottom: -21px;
+    color: #D64000;
+}
+
+.pst_inputtext3.error {
+    border-color: #D64000 !important;
+}
+
+.pst_inputtext3.error + .pst_inputtext3-label {
+    color: #D64000 !important;
+}
+
+.pst_inputtext3.error ~ .pst_inputtext3-error {
+    display: block;
+}
+
+.pst_inputtext3:focus {
+    border: 1px solid #058471;
+}
+
+.pst_inputtext3:focus ~ .pst_inputtext3-label {
+    transform: scale(.75) translateY(-28px);
+    -webkit-transform: scale(.75) translateY(-28px);
+    transform-origin: center left;
+    -webkit-transform-origin: center left;
+    left: 7px;
+    color: #414141;
+    background-color: #FFF;
+    font-weight: 600;
+}
+
+.pst_inputtext3:not(:placeholder-shown):focus {
+    border-color: #058471;
+}
+
+.pst_inputtext3:not(:placeholder-shown) ~ .pst_inputtext3-label {
+    transform: scale(.75) translateY(-28px);
+    -webkit-transform: scale(.75) translateY(-28px);
+    transform-origin: center left;
+    -webkit-transform-origin: center left;
+    left: 7px;
+    color: #414141;
+    background-color: #FFF;
+    font-weight: 600;
+}
+    

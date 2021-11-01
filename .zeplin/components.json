@@ -26,6 +26,12 @@
       "zeplinIds": [
         "615f1391efee1188586451df"
       ]
+    },
+    {
+      "path": "src\\components\\InputFields\\TextInput.js",
+      "zeplinIds": [
+        "6166f2eb4538a9b5a812c8ca"
+      ]
     }
   ],
   "github": {
