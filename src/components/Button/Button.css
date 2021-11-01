@@ -1,0 +1,28 @@
+button {
+	min-width: 100px;
+	height: auto;
+	box-sizing: border-box;
+	padding: 14px 15px;
+	font-family: 'Proxima Nova', 'Arial', sans-serif;
+	cursor: pointer;
+	border-radius: 3px;
+	transition: all ease 250ms;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 22px;
+}
+button:disabled {
+	opacity: 0.7;
+	pointer-events: none;
+}
+
+button.Primary {
+	color: #fff;
+	background-color: #57bda7;
+	border: 1px solid #57bda7;
+}
+button.Primary:hover {
+	color: #57bda7;
+	background-color: #FFF;
+}
