@@ -11,10 +11,17 @@ button {
 	font-style: normal;
 	font-size: 18px;
 	line-height: 22px;
+	color: #fff;
+	background-color: #57bda7;
+	border: 1px solid #57bda7;
 }
 button:disabled {
 	opacity: 0.7;
 	pointer-events: none;
+}
+button:hover {
+	color: #57bda7;
+	background-color: #FFF;
 }
 
 button.Primary {
@@ -35,4 +42,25 @@ button.Secondary {
 button.Secondary:hover {
 	color: #FFF;
 	background-color: #57bda7;
+}
+
+button.LightGreen {
+	color: #058471;
+	background-color: #c1f6eb;
+	border: 1px solid #c1f6eb;
+}
+button.LightGreen:hover {
+	color: #4cb9a3;
+	background-color: #FFFFFF;
+	border: 1px solid #4cb9a3;
+}
+
+button.NoBG {
+	color: #FFFFFF;
+	background-color: transparent;
+	border: 1px solid transparent;
+}
+button.NoBG:hover {
+	color: #4cb9a3;
+	background-color: #FFFFFF;
 }

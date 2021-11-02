@@ -101,4 +101,27 @@
     background-color: #FFF;
     font-weight: 600;
 }
+
+.pst_inputtext3-holder.white .pst_inputtext3 {
+  border: 1px solid #fff;
+  color: #fff;
+}
+.pst_inputtext3-holder.white .pst_inputtext3 + .pst_inputtext3-label {
+  color: #fff;
+}
+.pst_inputtext3-holder.white .pst_inputtext3:focus {
+  border: 1px solid #fff;
+}
+.pst_inputtext3-holder.white .pst_inputtext3:focus ~ .pst_inputtext3-label {
+  color: #fff;
+  background-color: #4cb9a3;
+}
+.pst_inputtext3-holder.white .pst_inputtext3:not(:placeholder-shown) {
+  /* input has a value */
+  border: 1px solid #fff;
+}
+.pst_inputtext3-holder.white .pst_inputtext3:not(:placeholder-shown) ~ .pst_inputtext3-label {
+  color: #fff;
+  background-color: #4cb9a3;
+}
     
