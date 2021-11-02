@@ -171,6 +171,8 @@
 .pst_inputselect3-holder select.pst_inputselect3 option {
   padding: 0;
   font-weight: 600;
+  background-color: #FFF;
+  color: #141414;
 }
 .pst_inputselect3-holder select.pst_inputselect3:focus-visible {
   outline: -webkit-focus-ring-color auto 1px;
