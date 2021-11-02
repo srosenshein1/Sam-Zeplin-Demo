@@ -9,6 +9,8 @@ import CountryCard from '../CountryCard/CountryCard.js';
 import TextInput from '../InputFields/TextInput.js';
 import Navbar from '../Navbar/Navbar.js';
 import Subnav from '../Navbar/Subnav.js';
+import Dropdown from '../InputFields/Dropdown.js';
+import Checkbox from '../InputFields/Checkbox.js';
 
 
 export const LandingPage = ({ className }) => {
@@ -57,6 +59,14 @@ export const LandingPage = ({ className }) => {
 	    				className='password'
 	    				label='Password'
 	    				type='password'
+	    			/>
+	    		</div>
+	    		<div className="dropdown-holder">
+	    			<Dropdown />
+	    		</div>
+	    		<div className="confirm-section">
+	    			<Checkbox 
+	    				id='chkSignupAgree'
 	    			/>
 	    		</div>
 		      <Button 

@@ -35,6 +35,19 @@
         "6166f2ebb9ec43bfb269c9e1",
         "6166f2eb5293e4b9d1d8f6a6"
       ]
+    },
+    {
+      "path": "src\\components\\Navbar\\Navbar.js",
+      "zeplinIds": [
+        "615f1390e1d4c07d8f25dd41"
+      ]
+    },
+    {
+      "path": "src\\components\\Navbar\\Subnav.js",
+      "zeplinIds": [
+        "61648d5a26e7f01694527a63",
+        "615f13903bf19b7dfebf715d"
+      ]
     }
   ],
   "github": {

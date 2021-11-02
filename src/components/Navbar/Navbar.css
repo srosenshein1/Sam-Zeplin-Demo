@@ -45,6 +45,8 @@ nav.visitor-nav .navbar-search .pst_inputtext3-holder .pst_inputtext3 {
 nav.visitor-nav .navbar-search .pst_inputtext3-holder .pst_inputtext3 + .pst_inputtext3-label {
 	color: #FFF;
 	background-color: transparent !important;
+	left: 0;
+	bottom: 8px;
 }
 
 nav.visitor-nav .navbar-buttons {
