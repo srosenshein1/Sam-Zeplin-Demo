@@ -48,6 +48,19 @@
         "61648d5a26e7f01694527a63",
         "615f13903bf19b7dfebf715d"
       ]
+    },
+    {
+      "path": "src\\components\\InputFields\\Dropdown.js",
+      "zeplinIds": [
+        "615f139180ee59865a819059"
+      ]
+    },
+    {
+      "path": "src\\components\\InputFields\\Checkbox.js",
+      "zeplinIds": [
+        "615f158afaa8d87049a7bc45",
+        "615f158a86a6656d8385d9db"
+      ]
     }
   ],
   "github": {
